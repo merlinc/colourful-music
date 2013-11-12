@@ -1,0 +1,145 @@
+html {
+  overflow: auto;
+  background: #f6f2f2;
+}
+
+div #offline {
+  display: none;
+}
+
+#colour-list {
+  margin: 0 auto;
+  width: 440px;
+  height: 61px;
+  padding: 0;
+}
+
+#colour-list li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  text-align: center;
+}
+
+#colour-list li input {
+  display: none;
+}
+
+[data-i18n-colour-red]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(255,0,0);
+  border: 2px solid #b60000;
+}
+
+
+[data-i18n-colour-orange]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(255,165,0);;
+  border: 2px solid #c37100;
+}
+
+
+[data-i18n-colour-yellow]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(255,255,0);;
+  border: 2px solid #c3c800;
+}
+
+
+[data-i18n-colour-green]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(0,128,0);;
+  border: 2px solid #007f00;
+}
+
+
+[data-i18n-colour-blue]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(0,0,255);
+  border: 2px solid #0000c5;
+}
+
+
+[data-i18n-colour-indigo]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(75,0,130);
+  border: 2px solid #1a0050;
+}
+
+
+[data-i18n-colour-violet]:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgb(238,130,238);
+  border: 2px solid #b44db7;
+}
+
+.banner {
+  width: auto;
+  height: 25px;
+  margin: -11px -8px 0 -8px;
+  background-image:-webkit-linear-gradient( left, black, red, orange, yellow, green,
+                                            blue, indigo, violet );
+  position: relative;
+  border-bottom: 2px solid rgba(48,48,48, 0.2);
+}
+
+.banner h1 {
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 10px
+}
+
+#artistContainer {
+/*  height: 200px;*/
+}
+
+#musicContainer {
+  height: 10px;
+}
+
+#artistList {
+  border: 0px solid red;
+  margin: 0 auto;
+  width: 666px;
+  padding: 0;
+}
+
+#artistList li {
+    border: 1px solid rgba(60, 60, 60, 0.5);
+    width: 200px;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+#artistList li .track {
+  margin: 5px;
+  font-weight: bold;
+}
+
+#artistList li .artist {
+  margin: 5px;
+  font-style: italic;
+}

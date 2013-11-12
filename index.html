@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title data-i18n-title></title>
+    <link rel="stylesheet" href="$views/css/image.css">
+    <link rel="stylesheet" href="$views/css/buttons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="banner"> <h1 id="logo" data-i18n-banner-title></h1></div>
+   
+    <div id="offline">
+      <h1 data-i18n-offline></h1>
+    </div>
+
+    <div id="container">
+      <ul id="colour-list">
+        <li><input id="colour_red" type="radio" name="colour" value="red"><label for="colour_red" data-i18n-colour-red></li>
+        <li><input id="colour_orange" type="radio" name="colour" value="orange"><label for="colour_orange" data-i18n-colour-orange></li>
+        <li><input id="colour_yellow" type="radio" name="colour" value="yellow"><label for="colour_yellow" data-i18n-colour-yellow></li>
+        <li><input id="colour_green" type="radio" name="colour" value="green"><label for="colour_green" data-i18n-colour-green></li>
+        <li><input id="colour_blue" type="radio" name="colour" value="blue"><label for="colour_blue" data-i18n-colour-blue></li>
+        <li><input id="colour_indigo" type="radio" name="colour" value="indigo"><label for="colour_indigo" data-i18n-colour-indigo></li>
+        <li><input id="colour_violet" type="radio" name="colour" value="violet"><label for="colour_violet" data-i18n-colour-violet></li>
+      </ul>
+
+      <div id="artistContainer">
+        <ol id="artistList"></ol>
+        <div id="artistDetails"></div>
+      </div>
+
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
